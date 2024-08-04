@@ -1,0 +1,31 @@
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+  --p-font-size: 18px;
+}
+
+body {
+  background-color: var(--almost-white);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  max-width: 100%;
+  /* height: 1px; */
+  margin-inline: auto;
+  width: 2000px;
+  font-family: "Epilogue", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0.7rem 1.25rem;
+  border-radius: 10px;
+  font-family: "Epilogue", sans-serif;
+}
