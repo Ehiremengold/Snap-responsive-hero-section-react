@@ -26,10 +26,10 @@ const Hero = () => {
             <button className="learn-more-btn">Learn more</button>
           </div>
           <div className="hero__brands">
-            <img src={clients.brand1} alt="" />
-            <img src={clients.brand2} alt="" />
-            <img src={clients.brand3} alt="" />
-            <img src={clients.brand4} alt="" />
+            <img className="brand-img" src={clients.brand1} alt="" />
+            <img className="brand-img" src={clients.brand2} alt="" />
+            <img className="brand-img" src={clients.brand3} alt="" />
+            <img className="brand-img" src={clients.brand4} alt="" />
           </div>
         </div>
         <div className="hero__img-description">
